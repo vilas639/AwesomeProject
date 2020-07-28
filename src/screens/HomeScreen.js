@@ -53,6 +53,16 @@ const HomeScreen = (props) => {
         }></Button>
 
 
+<Button styles={styles.asdf} title="Squre Screen"
+        onPress={
+          () => {
+            console.log("you go to Squre ");
+            props.navigation.navigate('squre');
+          }
+
+        }></Button>
+
+
     </View>
   );
 
