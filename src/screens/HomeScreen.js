@@ -63,6 +63,25 @@ const HomeScreen = (props) => {
         }></Button>
 
 
+<Button styles={styles.asdf} title="Text Screen"
+        onPress={
+          () => {
+            console.log("you go to textscreen1 ");
+            props.navigation.navigate('textscreen1');
+          }
+
+        }></Button>
+
+<Button  title="boxman Screen"
+        onPress={
+          () => {
+            console.log("you go to boxman ");
+            props.navigation.navigate('boxman');
+          }
+
+        }></Button>
+
+
     </View>
   );
 
